@@ -259,13 +259,18 @@ nav ul {
     .footDiv {
         flex-direction: column;
     }
+    .card2 {
+        width: 25%;
+    }
 }
 
 @media (max-width:950px) {
     .tinted-image .container {
         width: initial;
     }
-
+    .card2 {
+        width: 25%;
+    }
 
 }
 
@@ -394,6 +399,13 @@ footer i {
         flex: 0 0 auto;
         width: 100%;
     }
+    .section6div {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section6div p {
+        width: 75%;
+    }
 }
 
 
@@ -401,7 +413,10 @@ footer i {
     body {
         font-size: 0.5rem;
     }
-
+    .card {
+        width: 75%;
+        margin: auto;
+    }
     .section_3 .card2 {
         width: 100%;
         margin-bottom: 25px;
@@ -424,5 +439,8 @@ footer i {
 
     .right {
         display: none;
+    }
+    .section6div img {
+        width: 50%;
     }
 }
